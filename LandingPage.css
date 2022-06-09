@@ -1,0 +1,56 @@
+body{
+    background: #d6c7c0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.first h2{
+    color: #663300;
+}
+
+.blurb p{
+    font-size: 1.25rem;
+    font-weight: 100;
+    line-height: 5;
+}
+
+.content{
+    margin-top: 100px;
+}
+
+.nav-item {
+  color: black;
+}
+
+#mainNavbar{
+    font-size: 2.0rem;
+    font-weight: 200;
+}
+#mainNavbar .nav-link:hover{  /*hover is a pseudo selector here.*/
+    color: #663300;  /*You can also change background on hovering over it. (background: #89yuyu;) */
+}
+
+#mainNavbar .navbar-brand{
+    color: #663300;
+    font-size: 2.0rem;
+    font-weight: 400;
+}
+
+#headingGroup span{
+    color: #663300;
+}
+
+#headingGroup h1{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.navbar.scrolled{
+    background-color: #97714c; 
+}
+
+@media (max-width: 1200px){  /*This is a media query which helps in adding the applied changes beyond max-width of 1200px.*/
+    #headingGroup h1{
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+}
